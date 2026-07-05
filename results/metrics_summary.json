@@ -1,0 +1,21 @@
+{
+  "K-Means (k=5)": {
+    "n_clusters": 5,
+    "silhouette": 0.4682,
+    "davies_bouldin": 0.8564,
+    "calinski_harabasz": 198.79
+  },
+  "Hierarchical (Ward, k=5)": {
+    "n_clusters": 5,
+    "silhouette": 0.423,
+    "davies_bouldin": 0.9178,
+    "calinski_harabasz": 171.07
+  },
+  "DBSCAN (eps=0.65, min=5)": {
+    "n_clusters": 3,
+    "noise_points": 17,
+    "silhouette": 0.3553,
+    "davies_bouldin": 0.7824,
+    "calinski_harabasz": 100.48
+  }
+}
